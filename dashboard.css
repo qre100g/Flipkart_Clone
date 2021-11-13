@@ -1,0 +1,252 @@
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 246, 252);
+}
+
+/* Navbar */
+
+.navContainer {
+    padding: 5px 150px;
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(115, 115, 255);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navContainer > div {
+    cursor: pointer;
+}
+
+.icon {
+    color: white;
+}
+
+.imgicon {
+    height: 25px;
+}
+.belowText {
+    display: flex;
+}
+
+.belowText img {
+    height: 13px;
+}
+
+.search {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.searchIcon {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+
+.searchIcon span {
+    padding: 3px;
+    cursor: pointer;
+}
+
+.search input {
+    padding-left: 10px;
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.loginButton {
+    width: 150px;
+    height: 29px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.more , .cart{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Second Nav Bar */
+
+.secondNav {
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    background-color: white;
+
+}
+
+.sNItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sNItem img {
+    width: 70px;
+}
+
+/* Floating Images */
+
+.floatingNav img {
+    margin: 7px;
+    width: calc(100% - 14px);
+}
+
+/* Deals of the Day */
+
+.deals {
+    margin: 10px;
+    background-color: white;
+}
+
+.lnav {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.lnav button {
+    height: 40px;
+    width: 90px;
+    background-color: rgb(115, 115, 255);
+    color: white;
+}
+
+.dealbody {
+    padding: 25px 15px 30px 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dItems img {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.dItems span {
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+}
+.discount {
+    color: green !important;
+}
+
+/* Upper Footer */
+
+.upperFooter {
+    background-color: white;
+    padding: 50px 20px 20px 20px;
+    
+}
+.firstItem {
+    color: black;
+    line-height: 20px;
+}
+.firstItem span , .secondItem span{
+    color: grey;
+}
+.firstItem p {
+    font-size: 13px;
+}
+
+.secondItem {
+    line-height: 15px;
+}
+
+.secondItem p {
+    font-size: 11px;
+}
+.secondItem h4, .secondItem h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+/* Footer */
+
+.footer {
+    background-color: indigo;
+    color: white;
+}
+
+.top {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.list {
+    line-height: 18px;
+}
+
+.list span {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: gray;
+
+}
+
+.nobullets {
+    list-style-type: none;
+    padding: 0px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.list p {
+    font-size: 13px;
+    
+
+}
+
+.mailus {
+    margin-right: -30px;
+    margin-left: 60px;
+}
+
+.mailus span {
+    padding-bottom: 15px;
+}
+
+.mailus span, .mailus p {
+    margin-bottom: 0px !important;
+    padding-left:25px ;
+    border-left: 1px solid grey;
+}
+
+.bottom {
+    padding: 20px 0px ;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    width: 650px;
+    height: 500px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.left {
+    width: 300px;
+    padding: 30px;
+    background-color: #2874f0;
+    background-image: url(https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 80%;
+    color: rgb(248, 238, 238);
+}
+.left h4 {
+    padding-right: 30px;
+    line-height: 1.6;
+}
+
+.right {
+    padding: 50px 30px 30px 30px;
+}
+
+.right input {
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+.right input , button{
+    font-size: 16px;
+    height: 30px;
+    width: 100%;
+
+    margin-bottom: 20px;
+    border: none;
+    padding: 5px;
+
+}
+
+button {
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+}
+
+.right h6 {
+    margin-top: 30px;
+    color: gray;
+}
+
+
+h5 {
+    text-align: center;
+    color: gray;
+}
+
+.otp {
+    color: blue;
+    background-color: white;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+}
+.new {
+    color: blue;
+}
+
+
+/* CSS for Signup.html */
+
+.existUser {
+    margin-top: 0px;
+}
